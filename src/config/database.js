@@ -6,7 +6,6 @@ const connect = async () => {
   if (connection) return;
 
   const MONGO_URI =
-    "mongodb+srv://nataliachm97:dq7Ko2NPai4tXy3y@database.noduttt.mongodb.net/admiProcess";
 
   connection = mongoose.connection;
 
